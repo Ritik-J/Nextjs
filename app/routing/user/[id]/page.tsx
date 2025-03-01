@@ -1,5 +1,5 @@
-const page = ({ params }: { params: { id: string } }) => {
-  const { id } = params;
+const page = async ({ params }: { params: { id: string } }) => {
+  const { id } = await params;
   return <div>dyanic route fetching user id: {id} </div>;
 };
 

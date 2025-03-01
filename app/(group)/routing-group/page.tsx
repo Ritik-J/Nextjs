@@ -1,5 +1,5 @@
 const page = () => {
-  return <div>routin group navbar</div>;
+  return <div>Hello navbar</div>;
 };
 
 export default page;
